@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <item
+        android:id="@+id/refreshAction"
+        android:icon="@drawable/ic_menu_refresh"
+        
+        android:title="@string/refresh_label" >
+    </item>
+    
+    <item
+        android:id="@+id/citiesAddAction"
+        android:icon="@android:drawable/ic_input_add"
+         
+        android:title="@string/add_or_remove_cities_label">
+    </item>
+    
+</menu>
+
+<!-- Glasgow Caledonian University
+  Introduction to Mobile Device Programming M3G621212
+  Student Name: Mario Garcia
+  Student Mat.No: S1229875 -->

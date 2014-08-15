@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/weather_wallpaper"
+    tools:context=".CurrentCityListActivity">
+    
+    <TextView
+        android:id="@+id/tvPleaseWait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/tv_please_wait"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
+
+<!-- Glasgow Caledonian University
+  Introduction to Mobile Device Programming M3G621212
+  Student Name: Mario Garcia
+  Student Mat.No: S1229875 -->

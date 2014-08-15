@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000" >
+    
+    <TextView 
+        android:id="@+id/tvDayDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:maxLines="1"
+        android:text="21.02.2013, Tue"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+    
+    <TextView 
+        android:id="@+id/tvDayWeatherDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDayDate"
+        android:layout_below="@+id/tvDayDate"
+        android:layout_marginTop="3dp"
+        android:text="Sunny"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="12sp"/>
+    
+    <TextView
+        android:id="@+id/tvDayTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/tvDayWeatherDesc"
+        android:layout_marginTop="1dp"
+        android:layout_alignLeft="@+id/tvDayWeatherDesc"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#C1BFFF"
+        android:textSize="12sp" 
+        />
+    
+    <TextView 
+        android:id="@+id/tvDayWindSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+		android:layout_below="@+id/tvDayTemp"
+        android:layout_marginTop="1dp"
+        android:layout_alignLeft="@+id/tvDayTemp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+</RelativeLayout>
+
+<!-- Glasgow Caledonian University
+  Introduction to Mobile Device Programming M3G621212
+  Student Name: Mario Garcia
+  Student Mat.No: S1229875 -->
