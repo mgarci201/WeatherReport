@@ -1,8 +1,6 @@
 /**
  * Glasgow Caledonian University
  * Introduction to Mobile Device Programming M3G621212
- * Student Name: Mario Garcia
- * Student Mat.No: S1229875
  */
 
 package com.mario.weatherlistingcoursework;
